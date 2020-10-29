@@ -21,6 +21,6 @@ module.exports = {
       message.react("✅")
       return message.channel.send(xd);
     }
-    return sendError("There is nothing playing in this server.", message.channel);
+    return sendError("Onnume ila da pause panna.", message.channel);
   },
 };
